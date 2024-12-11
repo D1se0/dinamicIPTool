@@ -28,7 +28,7 @@ La herramienta verifica automáticamente los requisitos necesarios y los instala
 2. Ejecuta el script principal:
 
 ```bash
-bash dynamicIPChanger.sh
+bash dinamicIP.sh
 ```
 
 Sigue las instrucciones en pantalla. La herramienta configurará:
@@ -56,7 +56,7 @@ Haz clic en Aceptar para guardar los cambios.
 Ejecuta la herramienta:
 
 ```bash
-bash dynamicIPChanger.sh
+bash dinamicIP.sh
 ```
 
 ### Durante la ejecución, el script:
@@ -96,7 +96,7 @@ Si deseas cambiar tu `IP` cada 30 segundos:
 Ejecuta el script:
 
 ```bash
-bash dynamicIPChanger.sh
+bash dinamicIP.sh
 ```
 
 Introduce 30 como intervalo de tiempo cuando se te solicite.
