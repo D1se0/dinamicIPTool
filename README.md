@@ -1,42 +1,42 @@
 # Dynamic IP Changer: An Invisible Gateway to the Internet
 
-## Introducción
+## Introduction
 
-**`Dynamic IP Changer`** es una herramienta avanzada diseñada para ofrecer anonimato y privacidad en la navegación por internet. Aprovecha la potencia de **`Tor`** y **`Tornet`** para cambiar dinámicamente tu dirección `IP`, permitiéndote permanecer invisible mientras navegas, descargas o realizas cualquier actividad en línea.
+**`Dynamic IP Changer`** is an advanced tool designed to offer anonymity and privacy when browsing the internet. Harness the power of **`Tor`** and **`Tornet`** to dynamically change your IP address, allowing you to remain invisible while browsing, downloading or performing any online activity.
 
-Esta solución es ideal para quienes desean proteger su identidad, evitar rastreos o acceder a contenido restringido por ubicación.
-
----
-
-## Características
-
-- 🌍 **`Anonimato Total`**: Cambia automáticamente tu dirección `IP` en intervalos definidos por el usuario.
-- ⚡ **`Fácil de Configurar`**: Configura automáticamente `Tor` y Tornet en tu sistema.
-- 🔄 **`Actualización Dinámica`**: Define el intervalo de tiempo para cambiar tu `IP` según tus necesidades.
-- 🛡️ **`Protección DNS`**: Configuración de proxy `SOCKS v5` para asegurar que las solicitudes `DNS` pasen a través de `Tor`.
-- 🖥️ **`Integración con Firefox`**: Instrucciones claras para configurar tu navegador y comenzar a navegar de manera segura.
+This solution is ideal for those who want to protect their identity, avoid tracking, or access location-restricted content.
 
 ---
 
-## Instalación
+## Characteristics
 
-La herramienta verifica automáticamente los requisitos necesarios y los instala si no están disponibles. Sin embargo, antes de comenzar, asegúrate de tener acceso a una distribución basada en `Linux` (por ejemplo, `Kali Linux`).
+- 🌍 **`Total Anonymity`**: Automatically change your IP address at user-defined intervals.
+- ⚡ **`Easy to Configure`**: Automatically configure `Tor` and Tornet on your system.
+- 🔄 **`Dynamic Update`**: Define the time interval to change your `IP` according to your needs.
+- 🛡️ **`DNS Protection`**: `SOCKS v5` proxy configuration to ensure `DNS` requests pass through `Tor`.
+- 🖥️ **`Integration with Firefox`**: Clear instructions to configure your browser and start browsing safely.
 
-### Pasos de Instalación:
+---
 
-1. Clona el repositorio y accede al directorio de la herramienta.
-2. Ejecuta el script principal:
+## Facility
+
+The tool automatically checks for necessary requirements and installs them if they are not available. However, before you begin, make sure you have access to a `Linux`-based distribution (e.g. `Kali Linux`).
+
+### Installation Steps:
+
+1. Clone the repository and access the tool directory.
+2. Run the main script:
 
 ```bash
-bash dinamicIP.sh
+bash dynamicIP.sh
 ```
 
-Sigue las instrucciones en pantalla. La herramienta configurará:
-`Tor`: para redirigir tu tráfico.
-`Tornet`: para gestionar el cambio dinámico de `IP`.
-Configuración de `Firefox` para Usar `Tor`
+Follow the instructions on the screen. The tool will configure:
+`Tor`: to redirect your traffic.
+`Tornet`: to manage the dynamic change of `IP`.
+Configuring `Firefox` to Use `Tor`
 
-Para navegar con anonimato usando Firefox, configura el proxy `SOCKS` de Tor siguiendo estos pasos:
+To browse anonymously using Firefox, configure Tor's `SOCKS` proxy by following these steps:
 
 ```
 Escribe about:preferences en la barra de direcciones de Firefox.
@@ -51,60 +51,60 @@ Marca Hacer uso de DNS a través de SOCKS.
 Haz clic en Aceptar para guardar los cambios.
 ```
 
-## Uso
+## Use
 
-Ejecuta la herramienta:
+Run the tool:
 
 ```bash
-bash dinamicIP.sh
+bash dynamicIP.sh
 ```
 
-### Durante la ejecución, el script:
+### During execution, the script:
 
-Configurará los componentes necesarios.
-Te pedirá el intervalo de tiempo en segundos para cambiar dinámicamente tu `IP`.
-Comenzará a cambiar tu `IP` automáticamente.
-Navega con confianza y anonimato.
+You will configure the necessary components.
+It will ask you for the time interval in seconds to dynamically change your `IP`.
+It will start changing your `IP` automatically.
+Browse with confidence and anonymity.
 
-### Ventajas de `Dynamic IP Changer`
+### Advantages of `Dynamic IP Changer`
 
-`Invisibilidad`: Cambiar tu `IP` periódicamente hace que tu actividad en línea sea más difícil de rastrear.
-`Acceso Global`: Evita restricciones geográficas accediendo a contenido bloqueado en tu ubicación.
-`Privacidad Mejorada`: Protege tu identidad contra rastreadores, anunciantes y posibles amenazas de terceros.
-`Fácil Integración`: Funciona perfectamente con navegadores configurados para utilizar `Tor`.
+`Invisibility`: Changing your `IP` periodically makes your online activity harder to track.
+`Global Access`: Bypass geographic restrictions by accessing content blocked in your location.
+`Enhanced Privacy`: Protect your identity against trackers, advertisers and potential third-party threats.
+`Easy Integration`: Works perfectly with browsers configured to use `Tor`.
 
-## Notas
+## Notes
 
-Esta herramienta está diseñada exclusivamente para uso personal y ético. El mal uso puede violar las leyes de privacidad o términos de servicio de terceros.
-Para maximizar el anonimato, utiliza siempre una conexión segura y evita iniciar sesión en servicios que puedan revelar tu identidad.
+This tool is designed exclusively for personal and ethical use. Misuse may violate third party privacy laws or terms of service.
+To maximize anonymity, always use a secure connection and avoid logging into services that might reveal your identity.
 
-### Requisitos
+### Requirements
 
-Sistema Operativo: `Linux`
+Operating System: `Linux`
 
-### Herramientas Necesarias:
+### Tools Needed:
 
 `Tor`
 
-`Tornet` (se instalará automáticamente si no está disponible)
-`Python 3` (para entornos virtuales, si es necesario)
+`Tornet` (will be installed automatically if not available)
+`Python 3` (for virtual environments, if necessary)
 
-### Ejemplo Práctico
+### Practical Example
 
-Si deseas cambiar tu `IP` cada 30 segundos:
+If you want to change your `IP` every 30 seconds:
 
-Ejecuta el script:
+Run the script:
 
 ```bash
-bash dinamicIP.sh
+bash dynamicIP.sh
 ```
 
-Introduce 30 como intervalo de tiempo cuando se te solicite.
+Enter 30 as the time interval when prompted.
 
-Configura `Firefox` siguiendo las instrucciones proporcionadas y comienza a navegar con una `IP` nueva cada medio minuto.
+Configure `Firefox` following the instructions provided and start browsing with a new `IP` every half minute.
 
-## Contribuciones
+## Contributions
 
-Si tienes ideas para mejorar esta herramienta, siéntete libre de contribuir al proyecto. ¡El anonimato en línea es un derecho, y juntos podemos hacerlo más accesible para todos!
+If you have ideas to improve this tool, feel free to contribute to the project. Anonymity online is a right, and together we can make it more accessible for everyone!
 
-Mantén tu privacidad. Mantén tu libertad.
+Maintain your privacy. Keep your freedom.
